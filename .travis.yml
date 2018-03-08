@@ -12,7 +12,8 @@ install:
   - pip install -U pandas
   - pip install -U numpy
   - pip install -U scikit-learn
+  - python -m pip install flake8
 
 script:  
-  - py.test -v --color=yes --exitfirst --showlocals --durations=5
+  - flake8 python
   
