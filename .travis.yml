@@ -14,4 +14,4 @@ install:
   - pip install -U scikit-learn
 
 script:  
-  - python -m pytest ./test
+  - pytest
