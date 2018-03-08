@@ -14,4 +14,5 @@ install:
   - pip install -U scikit-learn
 
 script:  
-  - pytest
+  - py.test -v --color=yes --exitfirst --showlocals --durations=5
+  
